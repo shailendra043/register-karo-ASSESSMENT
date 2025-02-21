@@ -6,8 +6,6 @@ A modern registration form application built with React and deployed on Vercel. 
 
 🌐 **Live Demo:** [https://register-karo-assessment-wine.vercel.app/](https://register-karo-assessment-wine.vercel.app/)
 
-![App Screenshot](screenshot.png) <!-- Add your screenshot path here -->
-
 ## Features ✨
 
 - 📝 User-friendly registration form
