@@ -1,0 +1,280 @@
+.hero-section {
+  /* background: linear-gradient(to right, #4facfe, #00f2fe); */
+  color: white;
+}
+.hero-section h1 {
+  font-weight: bold;
+}
+.hero-section .lead {
+  font-size: 1.2rem;
+}
+.btn-talk{
+  background-color: #FFA229;
+}
+.btn-expert{
+  background-color: #1C4670;
+  border-color: #1C4670;
+  border-radius: 3%;
+}
+.btn-expert:hover {
+  background-color: #26517c;
+}
+.Top-Bar{
+  background-color: #1C4670;
+}
+/* General styles for the container */
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Styling for the cards */
+.card {
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Card icons */
+.card-body i {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Title and text inside the card */
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .card {
+    margin-bottom: 20px;
+  }
+}
+/* .video{
+  background-color: #1C4670;
+} */
+.video-section {
+  background-color: #002b5c; /* Dark blue background */
+  padding: 60px 20px;
+}
+
+.video-section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.video-section p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.video-section .text-warning {
+  font-size: 2rem;
+}
+
+.video-section .ratio {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .video-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .video-section p {
+    font-size: 0.9rem;
+  }
+}
+.banner-img {
+  max-width: 110%;
+  margin-right: 10%;
+  text-align: right;
+}
+.application{
+  background-color: #FFA229;
+}
+.show-btn{
+  background-color: #1C4670;
+  color: aliceblue;
+}
+
+.testimonial-section {
+  background-color: #1e3a5f;
+  padding: 60px 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.testimonial-card {
+  background: white;
+  border-radius: 15px;
+  padding: 30px;
+  margin: 15px;
+  height: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-text {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.author-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.author-info h5 {
+  margin: 0;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.author-info p {
+  margin: 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.rating {
+  color: #ffd700;
+  margin-bottom: 20px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 1;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #ffa500;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.carousel-indicators {
+  bottom: -50px;
+}
+
+.carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  opacity: 0.5;
+  margin: 0 5px;
+}
+
+.carousel-indicators .active {
+  opacity: 1;
+}
+
+/* FAQ.css */
+
+/* Add shadow and light color to the FAQ boxes */
+.faq-box {
+  border: none;
+  border-left: 5px solid transparent; 
+border-image: linear-gradient(to top, #FFA229, #1C4670) 1;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #f9f9f9; 
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.faq-box:hover {
+  transform: translateY(-3px); 
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+.accordion-button {
+  font-weight: 500;
+  color: #333;
+  background-color: transparent;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-item {
+  margin-bottom: 1rem;
+}
+
+.show-btn:hover{
+  background-color: #032d5e;
+  color: #f9f9f9;
+}
+.bg-promotion{
+ background-color: #1C4670;
+}
+.text-number{
+  background: linear-gradient(90deg, #FFA229, #1C4670);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: bold;
+}
+
+.hero-section {
+  height: 50vh;
+  background: linear-gradient(90deg,#FFA229 0%, #1C4670 100%);
+  color: white;
+}
+
+.input-group {
+  background-color: #ffffff; /* Form background color */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for better visual */
+}
+.footer{
+  background-color: #1C4670;
+}
+
+.bg-light-danger {
+  background-color: #fbeaea;
+}
+.bg-light-success {
+  background-color: #eafbea;
+}
+.bg-light-primary {
+  background-color: #eaf2fb;
+}
+.bg-light-pink {
+  background-color: #fbeaf7;
+}
+.bg-light-warning {
+  background-color: #fdf5e6;
+}
